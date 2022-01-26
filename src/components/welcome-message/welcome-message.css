@@ -1,0 +1,31 @@
+.welcome-container {
+  color: black;
+  background-color: white;
+  width: 400px;
+  margin: 1.2rem auto;
+  padding: 4rem 5rem 4.5rem;
+}
+
+.welcome {
+  font-size: 2rem;
+}
+
+.social-text {
+  font-size: 1.8rem;
+}
+
+.logout-btn {
+  width: 200px;
+  background-color: #ffa715;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #f58411;
+}

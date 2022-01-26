@@ -1,0 +1,35 @@
+.login-form {
+  background-color: white;
+  padding: 4rem 4rem 4.5rem;
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin: 3rem auto;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.social-button {
+  min-width: 200px;
+  background-color: white;
+  border: 1px #e8eaed solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px 0 10px;
+  cursor: pointer;
+}
+
+.social-button:hover {
+  background-color: #e8eaed;
+}
+
+.login-title {
+  color: black;
+  margin: 1rem 0;
+}
