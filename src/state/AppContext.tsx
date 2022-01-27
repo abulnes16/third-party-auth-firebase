@@ -10,7 +10,7 @@ export interface AppContextState {
   logout: () => void;
 }
 
-const appContext = createContext<AppContextState>({
+export const appContext = createContext<AppContextState>({
   isLoggedIn: false,
   name: "",
   signInWith: "",

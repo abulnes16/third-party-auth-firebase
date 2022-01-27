@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header, LoginForm, WelcomeMessage } from "./components";
+import { HomePage } from "./pages";
 import AppContext from "./state/AppContext";
 
 function App() {
@@ -7,11 +7,7 @@ function App() {
     <AppContext>
       <div className="App">
         <div className="skewed"></div>
-        <main>
-          <Header />
-          {/*  <LoginForm /> */}
-          <WelcomeMessage />
-        </main>
+        <HomePage />
       </div>
     </AppContext>
   );
