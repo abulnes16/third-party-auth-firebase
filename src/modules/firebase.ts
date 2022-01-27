@@ -1,4 +1,10 @@
 import { FirebaseOptions, initializeApp } from "firebase/app";
+import {
+  getAuth,
+  GoogleAuthProvider,
+  GithubAuthProvider,
+  FacebookAuthProvider,
+} from "firebase/auth";
 import environment from "../config";
 
 const firebaseConfig: FirebaseOptions = {
@@ -11,3 +17,4 @@ const firebaseConfig: FirebaseOptions = {
 };
 
 export const firebaseApp = initializeApp(firebaseConfig);
+export const firbeaseAuth = getAuth(firebaseApp);
