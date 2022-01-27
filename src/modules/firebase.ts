@@ -18,3 +18,6 @@ const firebaseConfig: FirebaseOptions = {
 
 export const firebaseApp = initializeApp(firebaseConfig);
 export const firbeaseAuth = getAuth(firebaseApp);
+export const googleProvider = new GoogleAuthProvider();
+export const facebookProvider = new FacebookAuthProvider();
+export const githubProvider = new GithubAuthProvider();
